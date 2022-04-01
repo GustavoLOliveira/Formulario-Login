@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/feather-icons"></script> 
+</head>
+<body>
+    
+    <div class="form-container">
+        <form>
+            <h3>SIGN UP</h3>
+            <div class="input-container">
+                <input type="text" placeholder="Name">
+                <i data-feather="user"></i>
+            </div>
+            <div class="input-container">
+                <input type="email" placeholder="Email Address">
+                <i data-feather="mail"></i>
+            </div>
+            <div class="input-container">
+                <input type="password" placeholder="Password">
+                <i data-feather="lock"></i>
+            </div>
+            <div class="input-container">
+                <input type="password" placeholder="Retry Password">
+                <i data-feather="lock"></i>
+            </div>
+
+            <!-- <input type="submit" value="Sign Up"> Tirei esse comando de submit para conseguir usar o link de uma pagina pra outra com os botões -->
+            <button type="submit" href="index.html"><a href="index.html">Sign Up</a></button>
+
+
+        </form>
+
+    </div>
+
+
+
+
+
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>

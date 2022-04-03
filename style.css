@@ -147,5 +147,10 @@ hr {
     margin: auto; /*para ficar centralizado*/
 }
 
+@media screen and (max-width: 480px) {
+    .form-container{
+        width: 100%;
+    }
+}
 
 /* Projeto está no site pinspiry.com/forms-ui-kit-free-psd/ */
